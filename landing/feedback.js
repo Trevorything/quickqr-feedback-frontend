@@ -19,7 +19,7 @@ window.onload = () => {
       comments: document.getElementById("comments").value,
     };
 
-    const response = await fetch("https://<your-vercel-app>.vercel.app/api/submitFeedback", {
+    const response = await fetch("https://quickqr-feedback-api.vercel.app/api/submitFeedback", {
   method: "POST",
   headers: {
     "Content-Type": "application/json"
